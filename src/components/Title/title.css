@@ -1,0 +1,9 @@
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin:2vh auto;
+    color: purple;
+}

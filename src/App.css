@@ -1,0 +1,29 @@
+.board{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  border-collapse: collapse;
+  gap: 1px 1px;
+  width: 500px;
+  height: 500px;
+  margin: 2vh auto;
+  border-radius: 2%;
+}
+.game-info{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  font-size: x-large;
+  font-weight: bold;
+  width: 500px;
+  margin:auto;
+  color: red;
+}
+.reset-btn{
+  background-color: red;
+  border: 1px solid navy;
+  color: navy;
+  border-radius: 2.5%;
+  cursor: pointer;
+  font-size: 20px;
+}
